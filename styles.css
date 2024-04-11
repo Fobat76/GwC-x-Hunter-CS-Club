@@ -94,7 +94,7 @@ and you can change the background image here
   font-weight: 400; /* Font weight for the h1 tag */
   overflow: hidden; /* Hides the text that goes over the div */
   white-space: nowrap; /* Makes the text not go to the next line */
-  animation: typing 3.5s steps(15), blink 0.95s ease-in-out 3.5s infinite; /* Typing animation */
+  animation: typing 3.5s steps(15), blink 0.95s ease-in-out 1.5s; /* Typing animation */
   width: 18ch; /* Width of the text is 18 characters */
   margin: auto; /* Centers the text by automatically adjusting what the margins should be based off of how much screen real-estate you have */
   border-right: 4px solid rgba(255, 255, 255, 1); /* Border right of the text */
