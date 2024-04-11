@@ -94,7 +94,7 @@ and you can change the background image here
   font-weight: 400; /* Font weight for the h1 tag */
   overflow: hidden; /* Hides the text that goes over the div */
   white-space: nowrap; /* Makes the text not go to the next line */
-  animation: typing 3.5s steps(15), blink 0.95s ease-in-out 1.5s; /* Typing animation */
+  animation: typing 3s steps(12), blink 0.95s ease-in-out 1.5s; /* Typing animation */
   width: 18ch; /* Width of the text is 18 characters */
   margin: auto; /* Centers the text by automatically adjusting what the margins should be based off of how much screen real-estate you have */
   border-right: 4px solid rgba(255, 255, 255, 1); /* Border right of the text */
@@ -102,26 +102,14 @@ and you can change the background image here
 
 @keyframes typing {
   /* Keyframes for the typing animation */
-  60% {
-    /* 60% of the way through the animation */
-    width: 0ch; /* Width of the text is 0 characters */
-  }
-  100% {
-    /* 100% of the way through the animation */
-    width: 18ch; /* Width of the text is 18 characters */
-  }
-}
-@keyframes blink {
-  /* Keyframes for the blinking animation */
   from {
-    /* Start of the animation */
-    border-right: 6px solid rgba(255, 255, 255, 0); /* Border right of the text becomes transparent */
+    width: 0; /* Start with no width */
   }
   to {
-    /* End of the animation */
-    border-right: 6px solid rgb(194, 194, 194); /* Border right of the text becomes grey */
+    width: 18ch; /* End with full width */
   }
 }
+
 
 /* Makes the buttons link tags have no decoration and the text color white */
 .buttons a {
