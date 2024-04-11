@@ -66,7 +66,7 @@ This is used with the javascript in this project
 and aligns text center as well 
 as makes the font 50px*/
 .main {
-  color: white;
+  color: black;
   text-align: center;
   font: 50px;
 }
@@ -78,7 +78,7 @@ and you can change the background image here
 .header {
   width: 100%; /* Full width of the screen */
   height: 100vh; /* 100% of the screen height */
-  background: url("yourbackground") center no-repeat; /* Add your background image here */
+  background: url("https://cdn.donmai.us/original/bd/85/bd850cae7ec327e384d3eb67c867fec8.jpg") center no-repeat; /* Add your background image here */
   background-color: #06062c; /* Remove this if you want to add your own background image */
   background-size: cover; /* Cover the whole screen */
   display: flex; /* Makes the items flex which means that they stack on top of each other or left to right */
@@ -126,7 +126,7 @@ and you can change the background image here
 /* Makes the buttons link tags have no decoration and the text color white */
 .buttons a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 /* The button styling to have a Purple outline
@@ -168,7 +168,7 @@ Height is 70% of the current device screen
   display: flex; /* Makes the items flex which means that they stack on top of each other or left to right */
   align-items: center; /* Centers the items vertically */
   justify-content: center; /* Centers the items horizontally */
-  background-color: #e7e7e7;
+  background-color: #a7ffba;
 }
 
 /* Font size for h1 and p tags */
